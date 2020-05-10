@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context=".SecondFragment"
+        android:layout_width="match_parent"
+        android:stretchColumns="*"
+        android:layout_height="match_parent"
+        android:id="@+id/table_layout"
+    >
+        >
+        <TableRow
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+            <Button
+
+                android:layout_height="@dimen/cell_height"
+                android:textSize="@dimen/cell_text_sz"
+                android:id="@+id/cell00"
+                android:onClick="updateVal"
+            />
+            <Button
+
+                android:layout_height="@dimen/cell_height"
+                android:textSize="@dimen/cell_text_sz"
+                android:id="@+id/cell01"
+                android:onClick="updateVal"
+                />
+            <Button
+
+                android:layout_height="@dimen/cell_height"
+                android:textSize="@dimen/cell_text_sz"
+                android:id="@+id/cell02"
+                android:onClick="updateVal"
+                />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+            <Button
+                android:layout_height="@dimen/cell_height"
+                android:textSize="@dimen/cell_text_sz"
+                android:id="@+id/cell10"
+                android:onClick="updateVal"
+                />
+            <Button
+                android:layout_height="@dimen/cell_height"
+                android:textSize="@dimen/cell_text_sz"
+                android:id="@+id/cell11"
+                android:onClick="updateVal"
+                />
+            <Button
+                android:layout_height="@dimen/cell_height"
+                android:textSize="@dimen/cell_text_sz"
+                android:id="@+id/cell12"
+                android:onClick="updateVal"
+                />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button
+                android:layout_height="@dimen/cell_height"
+                android:textSize="@dimen/cell_text_sz"
+                android:id="@+id/cell20"
+                android:onClick="updateVal"
+                />
+            <Button
+                android:layout_height="@dimen/cell_height"
+                android:textSize="@dimen/cell_text_sz"
+                android:id="@+id/cell21"
+                android:onClick="updateVal"
+                />
+            <Button
+                android:layout_height="@dimen/cell_height"
+                android:textSize="@dimen/cell_text_sz"
+                android:id="@+id/cell22"
+                android:onClick="updateVal"
+                />
+        </TableRow>
+        <TextView android:layout_height="wrap_content"
+        android:layout_margin="@dimen/score_margin"
+        android:id="@+id/res_value"
+            android:textSize="@dimen/res_size"
+            android:textStyle="bold"
+        />
+
+</TableLayout>

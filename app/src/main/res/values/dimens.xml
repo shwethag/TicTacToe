@@ -1,0 +1,10 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="res_margin">20dp</dimen>
+    <dimen name="res_padding">20dp</dimen>
+    <dimen name="score_margin">20dp</dimen>
+    <dimen name="cell_width">150dp</dimen>
+    <dimen name="cell_height">150dp</dimen>
+    <dimen name="res_size">40sp</dimen>
+    <dimen name="cell_text_sz">40sp</dimen>
+</resources>
